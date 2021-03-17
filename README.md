@@ -47,10 +47,10 @@ Melanoma: We take the first 500 images as the training set, and the next 200 ima
 
 ## Algorithm
 <div align="center">
-  <img src='Figures/algorithm1.png' width="90%"/>
+  <img src='Figures/algorithm1.png' width="75%"/>
 </div>
 <div align="center">
-  <img src='Figures/algorithm2.png' width="90%"/>
+  <img src='Figures/algorithm2.png' width="75%"/>
 </div>
 
 ## Run
