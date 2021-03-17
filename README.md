@@ -45,10 +45,12 @@ Melanoma: We take the first 500 images as the training set, and the next 200 ima
 - We tested this code with Python 3.8 and opencv 4.0.1.
 - The code also works with other versions of the packages.
 
-## Algorithm
+### Algorithm-Part I
 <div align="center">
   <img src='Figures/algorithm1.png' width="75%"/>
 </div>
+
+### Algorithm-Part II
 <div align="center">
   <img src='Figures/algorithm2.png' width="75%"/>
 </div>
