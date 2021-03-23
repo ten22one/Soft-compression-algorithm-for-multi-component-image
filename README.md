@@ -10,7 +10,7 @@ In disease diagnosis, medical image plays an important part. Its lossless compre
  the basic components of images. We propose a soft compression algorithm for multi-component medical images, which can 
  exactly reflect the fundamental structure of images. A general representation framework for image compression is also 
  put forward and the measurement of compression results indicates that our developed soft compression algorithm can 
- outperform the state of the art approaches in terms of compression ratio.
+ outperform the popular benchmarks in terms of compression ratio.
 
 ### Role
 - This code is designed for <font color='red'> multi-component image compression</font>, which is in lossless mode. 
