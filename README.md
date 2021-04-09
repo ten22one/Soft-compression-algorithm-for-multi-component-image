@@ -38,7 +38,7 @@ The division of datasets:
 ```
 DRIVE: The training and testing set given by the DRIVE are regarded as our training and testing set respectively.              \\
 Malaria: We take the first 200 images as the training set, and the next 100 images as the testing set.           \\
-BCCD: We select the first 200 images of BCCD as the training set and the remaining 166 images as the testing set.              \\
+BCCD: We select the first 500 images of BCCD as the training set and 200 images as the testing set.              \\
 Melanoma: We take the first 500 images as the training set, and the next 200 images as the testing set.          \\
 ```
 ##### Notes
