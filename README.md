@@ -14,7 +14,7 @@ In disease diagnosis, medical image plays an important part. Its lossless compre
 
 ### Role
 - This code is designed for <font color='red'> multi-component image compression</font>, which is in lossless mode. 
-- The code can get the compression ratio results on DRIVE, Malaria, BCCD and Melanoma datasets.
+- The code can get the compression ratio results on Malaria, BCCD and Melanoma datasets.
 - For other datasets, just do a few changes can achive the compression effect.
 
 ## Prerequisites for Code
@@ -30,7 +30,6 @@ Datasets:
 
 ```
 BCCD: https://github.com/Shenggan/BCCD_Dataset
-DRIVE: https://drive.grand-challenge.org/
 Malaria: https://bbbc.broadinstitute.org/BBBC041
 Malanoma: https://www.kaggle.com/shonenkov/melanoma-merged-external-data-512x512-jpeg
 ```
