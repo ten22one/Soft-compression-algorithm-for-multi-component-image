@@ -66,10 +66,10 @@ FIRE: We take the first 100 images as the training set, and the next 100 images 
 ## Comparision methods
 ```
 JPEG2000: http://www.openjpeg.org/
-     opj_compress -i input -o output
-PNG: Integrated in Opencv 
-     cv2.imwrite(img_path, img)
-JPEG: Integrated in Matlab
+    opj_compress -i input -o output
+PNG: Integrated in OpenCV
+    cv2.imwrite(img_path, img)
+JPEG: Integrated in MATLAB
     imwrite(image, output_name, 'Mode', 'lossless')
 ```
 
