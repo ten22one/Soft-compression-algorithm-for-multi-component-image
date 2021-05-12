@@ -32,13 +32,14 @@ Datasets:
 BCCD: https://github.com/Shenggan/BCCD_Dataset
 Malaria: https://bbbc.broadinstitute.org/BBBC041
 Malanoma: https://www.kaggle.com/shonenkov/melanoma-merged-external-data-512x512-jpeg
+FIRE: https://projects.ics.forth.gr/cvrl/fire/
 ```
 The division of datasets:
 ```
-DRIVE: The training and testing set given by the DRIVE are regarded as our training and testing set respectively.              \\
 Malaria: We take the first 200 images as the training set, and the next 100 images as the testing set.           \\
 BCCD: We select the first 500 images of BCCD as the training set and 200 images as the testing set.              \\
 Melanoma: We take the first 500 images as the training set, and the next 200 images as the testing set.          \\
+FIRE: We take the first 100 images as the training set, and the next 100 images as the testing set.         \\
 ```
 ##### Notes
 - We tested this code with Python 3.8 and opencv 4.0.1.
@@ -62,7 +63,15 @@ Melanoma: We take the first 500 images as the training set, and the next 200 ima
 
 
 
-
+## Comparision methods
+```
+JPEG2000: http://www.openjpeg.org/
+     opj_compress -i input -o output
+PNG: Integrated in Opencv 
+     cv2.imwrite(img_path, img)
+JPEG: Integrated in Matlab
+    imwrite(image, output_name, 'Mode', 'lossless')
+```
 
 ## Future Work
 
